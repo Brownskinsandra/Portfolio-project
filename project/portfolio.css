@@ -5,6 +5,9 @@
     --heading-font-family: "Playfair Display", serif;
     --general-font-family: "Poppins", sans-serif;
 }
+*{
+    margin-top: 40px;
+}
 .heading {
    background-color: var(--secondary-color);
    text-align: center;
@@ -62,8 +65,29 @@ p{
     line-height: 27px;
     padding: 15px 30px;
 }
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2{
+    font-size: 18px;
+    font-family: var(--general-font-family);
+}
+.about-section p{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.img-fluid{
+    border-radius: 15px;
+}
 
 @media (max-width: 900px) {
+    *{
+        text-align: center;
+        margin-top: 0px;
+    }
     h1 {
             font-size: 44px;
             line-height: 2;
@@ -74,6 +98,11 @@ p{
             line-height: 1.5;
             font-size: 24px;
         }
+    .about-section h1{
+           text-align: center;
+           font-weight: bold;
+           font-family: var(--heading-font-family);
+    }
     h2 {
            font-size: 44px;
            text-align: center;
