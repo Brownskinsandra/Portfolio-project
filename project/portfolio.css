@@ -9,7 +9,7 @@
 .heading {
    background-color: var(--secondary-color);
    text-align: center;
-   padding:70px 20px;
+   padding:160px 20px;
    font-family: var(--general-font-family);
 }
 
@@ -31,6 +31,11 @@ h2 {font-family: var(--heading-font-family);
     font-weight: bold;
     line-height: 1.5;
     font-size: 64px;
+}
+h4 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
 }
 .heading h2 {
     font-family: var(--heading-font-family);
@@ -116,6 +121,39 @@ nav li.active a {
 }
 .logo {
     max-height: 40px;
+}
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+    margin: 0px 60px;
+}
+.btn-branding-outline:hover{
+    border:1px solid var(--primary-color)
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+footer .email-link:hover{
+    color: var(--primary-color);
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: white;
+    background: var(--primary-color);
 }
 @media (max-width: 900px) {
     *{
