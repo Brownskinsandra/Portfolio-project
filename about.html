@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sandra is a Front-end engineer based in Nigeria">
+    <title>About - Sandra Okafor</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -23,9 +25,30 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="project/portfolio.css">
-    <title>portfolio</title>
 </head>
     <body>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+            <a href="/" title="Homepage">
+                <img src="image/logo.png" class="logo d-none d-md-block" alt="Shecode logo">
+                <img src="image/logo-small.jpg" class="logo d-block d-md-none" alt="Shecode logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="/" title="Homepage"> Home</a>
+                </li>
+                <li class="active">
+                    <a href="/about.html" title="About Sandra"> About</a>
+                </li>
+                <li>
+                    <a href="/work.html" title="Sandra's work"> Work</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="Contact Sandra"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
         <div class="content-container container">
             <div class="row">
                 <div class="col-lg-6">
@@ -38,15 +61,44 @@
                             everything is well explained, homework and deadlines are good for
                             keep focus
                         </p>
-                        <a href="" class="btn btn-branding">See my projects</a>
+                        <a href="/work.html" class="btn btn-branding">See my projects</a>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-5">
-                    <img src="image/IMG_0565_1694465601674.jpeg" alt="" class="img-fluid">
+                    <img src="image/IMG_0565_1694465601674.jpeg" alt="projects" class="img-fluid">
                 </div>
             </div>
         </div>
-    <a href="index.html">home</a>
-    
+        <footer class="container">
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                    <a href="/contact.html" class="btn btn-branding mt-3" title="contact Sandra"> Contact me </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:sandra@gmail.com" class="email-link" title="email sandra">
+                    sandra@gmail.com
+                </a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://www.github.com/sandra" target="_blank" title="github profile">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instragram.com/sandra" target="_blank" title="instagram profile">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.twitter.com/sandra" target="_blank" title="twitter profile">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="text-center mt-5">
+                This project was coded by Sandra Okafor and is <a href="https://github.com/Brownskinsandra/Portfolio-project"
+                    target="_blank">open-sourced</a>
+            </p>
+        </footer>
     </body>
 </html>

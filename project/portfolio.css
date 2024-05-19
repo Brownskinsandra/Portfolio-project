@@ -9,7 +9,7 @@
 .heading {
    background-color: var(--secondary-color);
    text-align: center;
-   padding:160px 20px;
+   padding:60px 20px;
    font-family: var(--general-font-family);
 }
 
@@ -32,7 +32,7 @@ h2 {font-family: var(--heading-font-family);
     line-height: 1.5;
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
     font-weight: bold;
     font-family: var(--heading-font-family);
@@ -83,7 +83,7 @@ p{
     line-height: 30px;
 }
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .img-fluid{
     border-radius: 15px;
